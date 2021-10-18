@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadena Mas Larga</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="index.js"></script>
+    <nav>
+
+    </nav>
+
+    <section>
+        <div class="enunciado">
+
+            <h1>EJERCICIO CADENA MAS LARGA</h1>
+            <p class="instruccion"> Ingresa un arreglo de cadenas o strings de una dimensión en el espacio disponible. Al pulsar el botón "Enviar", obtendrás el índice del arreglo con la cadena que posee más caracteres.<br><br>
+
+            Si te equivocas puedes pulsar el botón "Borrar" y empezar de nuevo.
+            </p>
+        </div>
+        <div class="solucion">
+            <p class="respuesta" id="Respuesta" onclick="borrar()"></p>
+            <img class="duende" src="https://images.vexels.com/media/users/3/149858/isolated/preview/ba6eac6603698bbf1edef87954909f39-dibujos-animados-de-salto-de-duende-feliz.png" alt="duende">
+            <textarea id="Input" type="text" class="input" placeholder="Ingresa la cadena a analizar"></textarea>
+            <div class=Botones>
+            <button type="button" class="enviar" onclick="enviar()">Enviar</button>
+            <button class="borrar" type="button" onclick="borrar()">Borrar</button>
+        </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
